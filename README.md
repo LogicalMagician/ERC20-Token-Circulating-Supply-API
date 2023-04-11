@@ -5,3 +5,10 @@ The core of this solution is a PHP script that retrieves the balance of the burn
 To keep the data up-to-date, set up a cron job to periodically request the PHP script, allowing it to refresh the supply values.
 
 With this solution, you can provide CoinMarketCap and CoinGecko with a direct URL to the text file, which will serve as the API endpoint. This enables your circulating supply to be accurately and consistently updated on both platforms.
+
+
+
+Change CONTRACT_ADDRESS_HERE with Contract Address
+Change COIN_TICKER_SYMBOL_HERE with Ticker Symbol
+Change 1000000000 with Total Supply amount of your token
+You should CHMOD the .txt file so only the Server can write to it
